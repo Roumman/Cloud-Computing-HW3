@@ -1,0 +1,123 @@
+# Этот файл содержит список шаблонов путей и имён файлов, которые должны игнорироваться системой контроля версий (например, Git)
+
+# Игнорирование байт-код файлов и оптимизированных DLL
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорирование скомпилированных C-расширений
+*.so
+
+# Игнорирование файлов и директорий, связанных с дистрибуцией и упаковкой
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Игнорирование артефактов PyInstaller
+*.manifest
+*.spec
+
+# Игнорирование логов установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Игнорирование отчётов о покрытии кода и файлов юнит-тестов
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Игнорирование файлов локализации
+*.mo
+*.pot
+
+# Игнорирование специфичных для Django файлов
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Игнорирование специфичных для Flask файлов
+instance/
+.webassets-cache
+
+# Игнорирование артефактов Scrapy
+.scrapy
+
+# Игнорирование сгенерированных файлов Sphinx
+docs/_build/
+
+# Игнорирование выходных данных PyBuilder
+target/
+
+# Игнорирование чекпоинтов Jupyter Notebook
+.ipynb_checkpoints
+
+# Игнорирование настроек IPython
+profile_default/
+ipython_config.py
+
+# Игнорирование файлов конфигурации pyenv
+.python-version
+
+# Игнорирование артефактов pipenv (кроме Pipfile.lock — по желанию)
+#Pipfile.lock
+
+# Игнорирование директорий PEP 582
+__pypackages__/
+
+# Игнорирование файлов Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Игнорирование парсированных файлов SageMath
+*.sage.py
+
+# Игнорирование директорий и файлов виртуальных окружений
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Игнорирование настроек проектов Spyder и Rope
+.spyderproject
+.spyproject
+.ropeproject
+
+# Игнорирование сгенерированной документации mkdocs
+/site
+
+# Игнорирование кэша mypy и файлов конфигурации
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Игнорирование артефактов Pyre type checker
+.pyre/
